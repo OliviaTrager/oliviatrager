@@ -1,0 +1,81 @@
+baseURL: https://oliviatrager.github.io
+languageCode: en-us
+title: Olivia Trager
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+defaultContentLanguage: de
+
+languages:
+      de:
+        title: Olivia Trager
+        languageName: Deutsch
+        weight: 1
+        taxonomies:
+          tag: "Tags"
+          category: "Kategorien"
+        
+         
+
+      en:
+        title: Olivia Trager
+        languageName: ":us:"
+        weight: 2
+
+
+      fr:
+        languageName: ":fr:"
+        languageAltTitle: French
+        weight: 2
+        title: Olivia Trager
+        taxonomies:
+          category: FRcategories
+          tag: FRtags
+          series: FRseries
+        profileMode:
+            enabled: true
+            title: Olivia Trager
+            imageUrl: "https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f317.svg"
+            imageTitle: ProfileMode image
+            # imageWidth: 120
+            # imageHeight: 120
+            subtitle: "Votre avocat en immigration de confiance à Berlin"
+            buttons:
+                - name: Blog
+                  url: posts
+                - name: Profile Mode
+                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+      #hebrew:
+      he:
+        title: Olivia Trager
+        languageName: עברית
+        weight: 4
+        languageName: ":hb:"
+        languageAltTitle: Hebrew
+        taxonomies:
+          category: FRcategories
+          tag: FRtags
+          series: FRseries
+        profileMode:
+            enabled: true
+            title: Olivia Trager
+            imageUrl: "https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f317.svg"
+            imageTitle: ProfileMode image
+            # imageWidth: 120
+            # imageHeight: 120
+            subtitle: "העורך דין להגירה האמין שלך בברלין"
+            buttons:
+                - name: Blog
+                  url: posts
+                - name: Email
+                  url: mailto:renekuhn@posteo.de
