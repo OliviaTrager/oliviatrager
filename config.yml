@@ -24,6 +24,16 @@ languages:
         taxonomies:
           tag: "Tags"
           category: "Kategorien"
+        menu:
+          main:
+            - name: Home
+              url: /
+            - name: Blog
+              url: posts
+            - name: Über mich
+              url: about
+            - name: Kontakt
+              url: contact
         
          
 
@@ -38,38 +48,28 @@ languages:
         languageAltTitle: French
         weight: 2
         title: Olivia Trager
-        taxonomies:
-          category: FRcategories
-          tag: FRtags
-          series: FRseries
         profileMode:
             enabled: true
             title: Olivia Trager
-            imageUrl: "https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f317.svg"
+            imageUrl: "https://github.com/OliviaTrager/oliviatrager.github.io/blob/main/oliviatrager.github.io/resources/_gen/images/profile.jpg?raw=true"
             imageTitle: ProfileMode image
             # imageWidth: 120
             # imageHeight: 120
             subtitle: "Votre avocat en immigration de confiance à Berlin"
             buttons:
-                - name: Blog
-                  url: posts
-                - name: Profile Mode
-                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+                - name: Email
+                  url: mailto:renekuhn@posteo.de
       #hebrew:
       he:
         title: Olivia Trager
-        languageName: עברית
         weight: 4
         languageName: ":hb:"
         languageAltTitle: Hebrew
-        taxonomies:
-          category: FRcategories
-          tag: FRtags
-          series: FRseries
+        
         profileMode:
             enabled: true
             title: Olivia Trager
-            imageUrl: "https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f317.svg"
+            imageUrl: "https://github.com/OliviaTrager/oliviatrager.github.io/blob/main/oliviatrager.github.io/resources/_gen/images/profile.jpg?raw=true"
             imageTitle: ProfileMode image
             # imageWidth: 120
             # imageHeight: 120
